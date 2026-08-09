@@ -1,0 +1,28 @@
+.about {
+    padding: 60px 0 100px;
+}
+
+.about__title {
+    font-size: 2.6rem;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    color: var(--color-text);
+    margin-bottom: 24px;
+    opacity: 0;
+    transform: translateY(60px);
+}
+
+.about__title.in-view {
+    animation: slideUp 1s cubic-bezier(0.16, 1, 0.3, 1) both;
+    animation-delay: 0.1s;
+}
+
+.about__text_p1 {
+    font-size: 1.2rem;
+    transform: translateY(60px);
+}
+
+.about__text_p1.in-view {
+    animation: slideUp 1s cubic-bezier(0.16, 1, 0.3, 1) both;
+    animation-delay: 0.2s;
+}
