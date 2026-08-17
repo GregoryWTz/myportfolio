@@ -1,5 +1,4 @@
 // Central place for site copy & links.
-// Edit this file to change text without touching component code.
 
 export const nav = {
   brand: "GregoryWTz",
@@ -27,5 +26,5 @@ export const hero = {
 
 export const about = {
   title: "About Me",
-  text1: "I am a passionate developer with experience in creating modern web applications. I enjoy solving complex problems and learning new technologies.",
+  text1: "I am a computer science undergraduate with a strong foundation in the IT world and a growing passion for cybersecurity. Through hands on university projects, I’ve built full-stack applications with a focus on clean architecture, responsive design, and clear functionality.",
 };
