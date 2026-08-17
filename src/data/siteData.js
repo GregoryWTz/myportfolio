@@ -10,7 +10,7 @@ export const nav = {
 };
 
 export const hero = {
-  greeting: "Sup, I'm Greg 👋",
+  greeting: "Gregorius William Tanuwijaya",
   titleLine1Accent: "IT Student",
   titleLine2: "Cybersecurity Enthusiast",
   description:
