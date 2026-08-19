@@ -26,5 +26,5 @@ export const hero = {
 
 export const about = {
   title: "About Me",
-  text1: "I am a computer science undergraduate with a strong foundation in the IT world and a growing passion for cybersecurity. Through hands on university projects, I’ve built full-stack applications with a focus on clean architecture, responsive design, and clear functionality.",
+  text1: "I am Gregorius William Tanuwijaya, a fifth-semester Information Systems student at Universitas Multimedia Nusantara with a strong interest in cybersecurity and digital system security. I am passionate about exploring both the offensive and defensive sides of cybersecurity, including Red Team operations, penetration testing, ethical hacking, SOC, and Capture The Flag (CTF). My curiosity about how systems can be exploited motivates me to continuously learn through CTF challenges and self-directed exploration, while also strengthening my technical skills in areas such as Linux and Python. I believe that understanding how attacks work is an essential part of building stronger defenses. Therefore, I aim to continuously grow as a cybersecurity enthusiast and apply my skills to help create more secure websites, applications, and digital systems.",
 };
