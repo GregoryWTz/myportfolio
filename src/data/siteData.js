@@ -27,7 +27,7 @@ export const translations = {
     about: {
       title: "About Me",
       text1:
-        "I am a computer science undergraduate with a strong foundation in the IT world and a growing passion for cybersecurity. Through hands on university projects, I've built full-stack applications with a focus on clean architecture, responsive design, and clear functionality.",
+        "My name is Gregorius William Tanuwijaya, a fifth-semester Information Technology student at Universitas Multimedia Nusantara with a strong interest in cybersecurity and digital system security. I am passionate about exploring both the offensive and defensive sides of cybersecurity, including Red Team operations, penetration testing, ethical hacking, SOC, and Capture The Flag (CTF). My curiosity about how systems can be exploited motivates me to continuously learn through CTF challenges and self-directed exploration, while also strengthening my technical skills in areas such as Linux and Python. I believe that understanding how attacks work is an essential part of building stronger defenses. Therefore, I aim to continuously grow as a cybersecurity enthusiast and apply my skills to help create more secure websites, applications, and digital systems.",
     },
   },
 
@@ -56,7 +56,7 @@ export const translations = {
     about: {
       title: "Tentang Saya",
       text1:
-        "Saya seorang mahasiswa ilmu komputer dengan dasar yang kuat di dunia IT dan passion yang terus berkembang di bidang keamanan siber. Melalui proyek-proyek kuliah, saya telah membangun aplikasi full-stack dengan fokus pada arsitektur yang bersih, desain yang responsif, dan fungsionalitas yang jelas.",
+        "Saya Gregorius William Tanuwijaya, mahasiswa semester 5 jurusan Sistem Informasi di Universitas Multimedia Nusantara yang memiliki ketertarikan kuat pada cybersecurity dan keamanan sistem digital. Saya tertarik mengeksplorasi sisi ofensif maupun defensif keamanan siber, mulai dari Red Team, penetration testing, dan ethical hacking hingga SOC dan CTF. Rasa ingin tahu tentang bagaimana sebuah sistem dapat dieksploitasi mendorong saya untuk terus belajar melalui CTF dan eksplorasi secara mandiri, sekaligus memperdalam kemampuan teknis seperti Linux dan Python. Saya percaya bahwa memahami cara sebuah serangan bekerja adalah bagian penting dalam membangun pertahanan yang lebih baik. Karena itu, saya ingin terus berkembang sebagai seorang cybersecurity enthusiast dan menggunakan kemampuan yang saya miliki untuk membantu menciptakan website, aplikasi, dan sistem digital yang lebih aman.",
     },
   },
 };
