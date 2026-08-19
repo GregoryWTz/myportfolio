@@ -41,21 +41,39 @@
   font-weight: 600;
 }
 
-.navbar__contact-btn {
-  width: 40px;
+.navbar__lang-toggle {
   height: 40px;
+  padding: 0 16px;
   border-radius: var(--radius-full);
   background: var(--color-dark);
   color: #fff;
   border: none;
   display: flex;
   align-items: center;
-  justify-content: center;
+  gap: 6px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  cursor: pointer;
   transition: transform 0.15s ease;
 }
 
-.navbar__contact-btn:hover {
+.navbar__lang-toggle:hover {
   transform: scale(1.06);
+}
+
+.navbar__lang-option {
+  opacity: 0.45;
+  transition: opacity 0.15s ease;
+}
+
+.navbar__lang-option--active {
+  opacity: 1;
+}
+
+.navbar__lang-divider {
+  opacity: 0.3;
+  font-weight: 400;
 }
 
 @media (max-width: 640px) {

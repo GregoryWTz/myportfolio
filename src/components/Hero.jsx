@@ -1,7 +1,10 @@
-import { hero } from "../data/siteData";
+import { useLanguage } from "../context/LanguageContext";
 import "../styles/Hero.css";
 
 function Hero() {
+  const { t } = useLanguage();
+  const hero = t.hero;
+
   return (
     <section id="home" className="hero">
       <div className="container hero__inner">
