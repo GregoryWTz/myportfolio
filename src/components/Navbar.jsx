@@ -1,8 +1,10 @@
 import { useState } from "react";
-import { nav } from "../data/siteData";
+import { useLanguage } from "../context/LanguageContext";
 import "../styles/Navbar.css";
 
 function Navbar() {
+  const { language, toggleLanguage, t } = useLanguage();
+  const nav = t.nav;
   const [activeHref, setActiveHref] = useState(nav.links[0].href);
 
   return (
@@ -29,24 +31,27 @@ function Navbar() {
 
         <button
           type="button"
-          className="navbar__contact-btn"
-          aria-label="Open chat"
+          className="navbar__lang-toggle"
+          onClick={toggleLanguage}
+          aria-label={
+            language === "en" ? "Switch to Indonesian" : "Switch to English"
+          }
         >
-          <svg
-            width="18"
-            height="18"
-            viewBox="0 0 24 24"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
+          <span
+            className={`navbar__lang-option ${
+              language === "id" ? "navbar__lang-option--active" : ""
+            }`}
           >
-            <path
-              d="M12 3C7.03 3 3 6.58 3 11c0 2.39 1.19 4.53 3.08 6.02-.1.98-.42 2.2-1.24 3.34a.5.5 0 00.54.78c1.9-.5 3.36-1.42 4.24-2.09.75.16 1.54.25 2.38.25 4.97 0 9-3.58 9-8s-4.03-8-9-8z"
-              stroke="currentColor"
-              strokeWidth="1.6"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
+            ID
+          </span>
+          <span className="navbar__lang-divider">|</span>
+          <span
+            className={`navbar__lang-option ${
+              language === "en" ? "navbar__lang-option--active" : ""
+            }`}
+          >
+            EN
+          </span>
         </button>
       </div>
     </header>

@@ -1,9 +1,11 @@
 import { useEffect, useRef, useState } from "react";
 import "../styles/About.css";
-import { about } from "../data/siteData";
+import { useLanguage } from "../context/LanguageContext";
 import { useInView } from "../hooks/useInView";
 
 function About() {
+    const { t } = useLanguage();
+    const about = t.about;
     const [titleRef, titleVisible] = useInView();
     const [textRef, textVisible] = useInView({ threshold: 0.1 });
 
