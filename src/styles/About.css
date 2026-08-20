@@ -1,5 +1,5 @@
 .about {
-    padding: 60px 0 100px;
+    padding: 50px 0 10px;
 }
 
 .about__title {
@@ -18,7 +18,7 @@
 }
 
 .about__text_p1 {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     transform: translateY(60px);
 }
 
