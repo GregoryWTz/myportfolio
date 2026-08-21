@@ -97,6 +97,11 @@
 .hero__media {
   display: flex;
   justify-content: center;
+  transition: transform 0.15s ease, opacity 0.15s ease;
+}
+
+.hero__media:hover {
+  transform: translateY(-3px);
 }
 
 .hero__photo-ring {

@@ -6,8 +6,8 @@ function Cv() {
   const { t } = useLanguage();
   const cv = t.cv;
   const [titleRef, titleVisible] = useInView();
-  const [textRef, textVisible] = useInView({ threshold: 0.1 });
-  const [buttonRef, buttonVisible] = useInView({ threshold: 0.1 });
+  // const [textRef, textVisible] = useInView({ threshold: 0.1 });
+  // const [buttonRef, buttonVisible] = useInView({ threshold: 0.1 });
   const [rowRef, rowVisible] = useInView({ threshold: 0.1 });
 
  return (
