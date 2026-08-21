@@ -7,8 +7,8 @@ export const translations = {
       brand: "GregoryWTz",
       links: [
         { label: "Home", href: "#home" },
-        { label: "Projects", href: "#projects" },
         { label: "About", href: "#about" },
+        { label: "Projects", href: "#projects" },
       ],
     },
     hero: {
@@ -35,6 +35,12 @@ export const translations = {
         "Download my resume to see the full details of my educational background, experience, and skills.",
       buttonLabel: "Download CV",
       file: "/files/Gregorius-William-Tanuwijaya-CV.pdf",
+    },
+    exp: {
+      title: "Experience",
+      description: "Download my experience document to see the full details of my work experience, projects, and achievements.",
+      buttonLabel: "Download Experience",
+      file: "/files/Gregorius-William-Tanuwijaya-Experience.pdf",
     },
   },
 
@@ -71,6 +77,12 @@ export const translations = {
         "Unduh resume saya untuk melihat rincian lengkap mengenai latar belakang pendidikan, pengalaman, dan keahlian.",
       buttonLabel: "Unduh CV",
       file: "/files/Gregorius-William-Tanuwijaya-CV.pdf",
+    },
+    exp: {
+      title: "Pengalaman",
+      description: "Unduh dokumen pengalaman saya untuk melihat rincian lengkap mengenai pengalaman kerja, proyek, dan pencapaian saya.",
+      buttonLabel: "Unduh Pengalaman",
+      file: "/files/Gregorius-William-Tanuwijaya-Experience.pdf",
     },
   },
 };
