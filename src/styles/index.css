@@ -7,7 +7,8 @@
   --color-border: #e5e5e8;
   --color-ring: #000000;
 
-  --font-sans: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
+  /* --font-sans: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif; */
+  --font-sans: "Courier New", Courier, monospace;
 
   --container-width: 1200px;
   --radius-sm: 8px;
@@ -28,6 +29,9 @@ body {
   font-family: var(--font-sans);
   color: var(--color-text);
   background-color: var(--color-bg);
+  background-image: radial-gradient(var(--color-border) 1.5px, transparent 1px);
+  background-size: 24px 24px;
+  background-attachment: fixed;
   -webkit-font-smoothing: antialiased;
 }
 
