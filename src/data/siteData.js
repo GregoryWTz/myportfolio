@@ -46,6 +46,10 @@ export const translations = {
       title: "Education",
       entries: [
         {
+          image: {
+            src: "/images/umn.jpg",
+            alt: "Universitas Multimedia Nusantara Logo",
+          },
           degree: "Bachelor of Information Technology",
           institution: "Universitas Multimedia Nusantara",
           gpa: "3.89",
@@ -108,9 +112,12 @@ export const translations = {
     },
     edu: {
       title: "Pendidikan",
-
       entries: [
         {
+          image: {
+            src: "/images/umn.jpg",
+            alt: "Universitas Multimedia Nusantara Logo",
+          },
           degree: "Sarjana Teknologi Informasi",
           institution: "Universitas Multimedia Nusantara",
           gpa: "3.89",

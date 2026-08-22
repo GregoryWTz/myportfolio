@@ -35,13 +35,27 @@ ul {
   margin-bottom: 32px;
 }
 
+.edu__top {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  /* padding-bottom: 28px; */
+  /* margin-bottom: 28px; */
+  /* border-bottom: 1px solid var(--color-border); */
+}
+
+.edu__image {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%; /* or var(--radius-md) for a rounded square */
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
 .edu__header {
   display: flex;
   flex-direction: column;
   gap: 6px;
-  padding-bottom: 28px;
-  margin-bottom: 28px;
-  border-bottom: 1px solid var(--color-border);
 }
 
 .edu__degree {
@@ -87,6 +101,7 @@ ul {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 12px 40px;
+  padding-left: 15%;
 }
 
 .edu__subjects-list {

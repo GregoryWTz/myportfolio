@@ -1,6 +1,7 @@
 import "../styles/Edu.css";
 import { useLanguage } from "../context/LanguageContext";
 import { useInView } from "../hooks/useInView";
+import { Fragment } from "react";
 
 function Edu() {
     const { t } = useLanguage();
@@ -21,32 +22,33 @@ function Edu() {
                     const rightSubjects = entry.subjects.filter((_, i) => i % 2 !== 0);
                 
                     return (
-                        <>
-                        <div key={index} className="edu__entry">
-                            <img
-                                src={entry.image}
-                                alt={entry.institution}
-                                className="edu__image"
-                            />
-                            <div className="edu__header">
-                                <div className="edu__header-text">{entry.title}</div>
-                                <h3 className="edu__degree">{entry.degree}</h3>
-                                <p className="edu__institution">{entry.institution}</p>
-                                {entry.gpa && (
-                                    <p className="edu__gpa">
-                                        <span className="edu__gpa__gpa-icon" aria-hidden="true">🎓</span>
-                                        GPA: {entry.gpa}
-                                    </p>
+                        <Fragment key={index}>
+                            <div key={index} className="edu__entry">
+                                <div className="edu__top">
+                                    <img
+                                        src={entry.image.src}
+                                        alt={entry.institution}
+                                        className="edu__image"
+                                    />
+                                    <div className="edu__header">
+                                        <h3 className="edu__degree">{entry.degree}</h3>
+                                        <p className="edu__institution">{entry.institution}</p>
+                                        {entry.gpa && (
+                                            <p className="edu__gpa">
+                                                <span className="edu__gpa-icon" aria-hidden="true">🎓</span>
+                                                GPA: {entry.gpa}
+                                            </p>
+                                        )}
+                                    </div>
+                                </div>
+
+                                {entry.period && (
+                                    <span className="edu__period">
+                                        <span className="edu__period__icon" aria-hidden="true">📅</span>
+                                        {entry.period}
+                                    </span>
                                 )}
                             </div>
-
-                            {entry.period && (
-                                <span className="edu__period">
-                                    <span className="edu__period__icon" aria-hidden="true">📅</span>
-                                    {entry.period}
-                                </span>
-                            )}
-                        </div>
                             <div className="edu__subjects">
                                 <ul className="edu__subjects-list">
                                     {leftSubjects.map((subject, i) => (
@@ -64,7 +66,7 @@ function Edu() {
                                     ))}
                                 </ul>
                             </div>
-                        </>
+                        </Fragment>
                     );
                 })}
             </div>
