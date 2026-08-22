@@ -42,6 +42,28 @@ export const translations = {
       buttonLabel: "Download Experience",
       file: "/files/Gregorius-William-Tanuwijaya-Experience.pdf",
     },
+    edu: {
+      title: "Education",
+      entries: [
+        {
+          degree: "Bachelor of Information Technology",
+          institution: "Universitas Multimedia Nusantara",
+          gpa: "3.89",
+          period: "2024 - 2028",
+          subjects: [
+            "Data Structures and Algorithms",
+            "Database Systems",
+            "Web Development",
+            "Computer Networks",
+            "Computer Security",
+            "Operating Systems",
+            // "Cybersecurity",
+            // "Mobile Application Development",
+            "Software Engineering",
+          ]
+        }
+      ]
+    },
   },
 
   id: {
@@ -83,6 +105,29 @@ export const translations = {
       description: "Unduh dokumen pengalaman saya untuk melihat rincian lengkap mengenai pengalaman kerja, proyek, dan pencapaian saya.",
       buttonLabel: "Unduh Pengalaman",
       file: "/files/Gregorius-William-Tanuwijaya-Experience.pdf",
+    },
+    edu: {
+      title: "Pendidikan",
+
+      entries: [
+        {
+          degree: "Sarjana Teknologi Informasi",
+          institution: "Universitas Multimedia Nusantara",
+          gpa: "3.89",
+          period: "2024 - 2028",
+          subjects: [
+            "Struktur Data dan Algoritma",
+            "Sistem Basis Data",
+            "Pengembangan Web",
+            "Jaringan Komputer",
+            "Keamanan Komputer",
+            "Sistem Operasi",
+            // "Keamanan Siber",
+            // "Pengembangan Aplikasi Seluler",
+            "Rekayasa Perangkat Lunak",
+          ]
+        }
+      ]
     },
   },
 };
