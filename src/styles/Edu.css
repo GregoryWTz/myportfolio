@@ -60,7 +60,7 @@ ul {
 
 .edu__degree {
   margin: 0;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   font-weight: 800;
   letter-spacing: -0.01em;
   color: var(--color-text);
@@ -68,7 +68,7 @@ ul {
 
 .edu__institution {
   margin: 0;
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: var(--color-text-muted);
 }
 
@@ -77,7 +77,7 @@ ul {
   align-items: center;
   gap: 6px;
   margin: 8px 0 0;
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-weight: 600;
   color: var(--color-accent);
 }
@@ -92,7 +92,7 @@ ul {
   padding: 8px 16px;
   border-radius: var(--radius-full);
   border: 1px solid var(--color-border);
-  font-size: 0.85rem;
+  font-size: 0.95rem;
   font-weight: 600;
   color: var(--color-text-muted);
 }
@@ -116,7 +116,7 @@ ul {
 .edu__subject-item {
   position: relative;
   padding-left: 22px;
-  font-size: 0.98rem;
+  font-size: 1.3rem;
   line-height: 1.5;
   color: var(--color-text-muted);
 }
