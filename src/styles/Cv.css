@@ -18,8 +18,8 @@
 }
 
 .cv__title.in-view {
-    animation: slideUp 1s cubic-bezier(0.16, 1, 0.3, 1) both;
-    animation-delay: 0.1s;
+  animation: slideUp 1s cubic-bezier(0.16, 1, 0.3, 1) both;
+  animation-delay: 0.1s;
 }
 
 .cv__row {
@@ -58,7 +58,7 @@
 .cv__row.in-view .cv__description,
 .cv__row.in-view .cv__button {
   animation: slideUp 1s cubic-bezier(0.16, 1, 0.3, 1) both;
-  animation-delay: 0.1s;
+  animation-delay: 0.2s;
 }
 
 @media (max-width: 900px) {
