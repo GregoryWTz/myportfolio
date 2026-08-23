@@ -6,6 +6,8 @@ import {
   SiNodedotjs, SiExpress, SiMysql, SiMongodb, SiPython, SiKotlin,
 } from "react-icons/si";
 import { FaCss } from "react-icons/fa6";
+import LogoLoop from "./LogoLoop";
+import "../styles/LogoLoop.css";
 
 const iconMap = {
   html: SiHtml5,
@@ -66,14 +68,28 @@ function Skills() {
 
         {/* Featured marquee row */}
         <div className="skills__marquee">
-          <div className="skills__marquee-track">
-            {[...skills.featured, ...skills.featured].map((icon, i) => {
-              const Icon = iconMap[icon];
-              return Icon ? (
-                <Icon key={i} className="skills__marquee-icon" aria-hidden="true" />
-              ) : null;
-            })}
-          </div>
+          <LogoLoop
+            logos={skills.featured
+              .map((icon) => {
+                const Icon = iconMap[icon];
+
+                return Icon
+                  ? {
+                      node: <Icon aria-hidden="true" />,
+                      title: icon,
+                    }
+                  : null;
+              })
+              .filter(Boolean)}
+            speed={80}
+            direction="left"
+            logoHeight={34}
+            gap={48}
+            pauseOnHover
+            fadeOut
+            fadeOutColor="var(--color-bg)"
+            ariaLabel="Featured skills"
+          />
         </div>
 
         {skills.categories.map((category, i) => (

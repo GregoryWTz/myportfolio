@@ -1,5 +1,6 @@
 .edu {
   padding: 50px 0 20px;
+  list-style-type: "› ";
 }
 
 .edu__content {
@@ -20,10 +21,6 @@
 .edu__title.in-view {
   animation: slideUp 1s cubic-bezier(0.16, 1, 0.3, 1) both;
   animation-delay: 0.1s;
-}
-
-ul {
-  list-style-type: "› ";
 }
 
 .edu__entry {
@@ -129,7 +126,6 @@ ul {
   color: var(--color-text-muted);
 
   opacity: 0;
-  transform: translateY(30px);
 }
 
 .edu__subjects.in-view .edu__subject-item {
