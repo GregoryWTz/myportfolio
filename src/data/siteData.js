@@ -68,6 +68,48 @@ export const translations = {
         }
       ]
     },
+    skills: {
+      title: "Skills",
+      featured: ["react", "javascript", "tailwind", "nodejs", "express", "mysql"],
+      categories: [
+        {
+          name: "Frontend",
+          items: [
+            { name: "HTML", icon: "html" },
+            { name: "CSS", icon: "css" },
+            { name: "JavaScript", icon: "javascript" },
+            { name: "React", icon: "react" },
+            { name: "Tailwind CSS", icon: "tailwind" },
+          ],
+        },
+        {
+          name: "Backend",
+          items: [
+            { name: "Node.js", icon: "nodejs" },
+            { name: "Express", icon: "express" },
+            { name: "MySQL", icon: "mysql" },
+            { name: "MongoDB", icon: "mongodb" },
+          ],
+        },
+        {
+          name: "Languages",
+          items: [
+            { name: "Python", icon: "python" },
+            { name: "Kotlin", icon: "kotlin" },
+          ],
+        },
+        {
+          name: "Security",
+          note: "Learned through CTF competitions and self-study.",
+          items: [
+            { name: "OWASP Top 10" },
+            { name: "Web Exploitation" },
+            { name: "Cryptography Basics" },
+            { name: "Network Fundamentals" },
+          ],
+        },
+      ],
+    },
   },
 
   id: {
@@ -135,6 +177,48 @@ export const translations = {
           ]
         }
       ]
+    },
+    skills: {
+      title: "Skills",
+      featured: ["react", "javascript", "tailwind", "nodejs", "express", "mysql"],
+      categories: [
+        {
+          name: "Frontend",
+          items: [
+            { name: "HTML", icon: "html" },
+            { name: "CSS", icon: "css" },
+            { name: "JavaScript", icon: "javascript" },
+            { name: "React", icon: "react" },
+            { name: "Tailwind CSS", icon: "tailwind" },
+          ],
+        },
+        {
+          name: "Backend",
+          items: [
+            { name: "Node.js", icon: "nodejs" },
+            { name: "Express", icon: "express" },
+            { name: "MySQL", icon: "mysql" },
+            { name: "MongoDB", icon: "mongodb" },
+          ],
+        },
+        {
+          name: "Languages",
+          items: [
+            { name: "Python", icon: "python" },
+            { name: "Kotlin", icon: "kotlin" },
+          ],
+        },
+        {
+          name: "Security",
+          note: "Learned through CTF competitions and self-study.",
+          items: [
+            { name: "OWASP Top 10" },
+            { name: "Web Exploitation" },
+            { name: "Cryptography Basics" },
+            { name: "Network Fundamentals" },
+          ],
+        },
+      ],
     },
   },
 };
