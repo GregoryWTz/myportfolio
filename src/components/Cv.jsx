@@ -22,10 +22,10 @@ function Cv() {
             {cv.title}
           </h2>
 
-        <div 
+          <div 
             ref={rowRef}
             className={`cv__row ${rowVisible ? "in-view" : ""}`}
-        >
+          >
             <p
               className={"cv__description"}
             >
@@ -56,7 +56,6 @@ function Cv() {
               </svg>
             </a>
           </div>
-
         </div>
       </div>
     </section>

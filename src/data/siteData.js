@@ -109,6 +109,41 @@ export const translations = {
         },
       ],
     },
+    contact: {
+      title: "Get in Touch",
+      copiedLabel: "Copied!",
+      location: "Based in Tangerang, Indonesia, GMT +07",
+      cards: [
+        {
+          type: "email",
+          title: "My Email Address",
+          text: "gwtlibra@gmail.com",
+          buttonLabel: "Copy Email",
+          value: "gwtlibra@gmail.com",
+        },
+        {
+          type: "link",
+          title: "LinkedIn",
+          text: "Connect professionally",
+          buttonLabel: "View Profile",
+          href: "https://www.linkedin.com/in/gregorius-william-tanuwijaya-310b34324/",
+        },
+        {
+          type: "link",
+          title: "Github",
+          text: "Check out my repositories",
+          buttonLabel: "View Repos",
+          href: "https://github.com/GregoryWTz",
+        },
+        {
+          type: "link",
+          title: "CTFs",
+          text: "View CTF labs & progress",
+          buttonLabel: "View Profile",
+          href: "https://learn.cylabacademy.org/users/VortexWz",
+        },
+      ],
+    },
   },
 
   id: {
@@ -215,6 +250,41 @@ export const translations = {
             { name: "Dasar Kriptografi" },
             { name: "Jaringan Komputer" },
           ],
+        },
+      ],
+    },
+    contact: {
+      title: "Get in Touch",
+      copiedLabel: "Copied!",
+      location: "Based in Jakarta, Indonesia, GMT +07",
+      cards: [
+        {
+          type: "email",
+          title: "My Email Address",
+          text: "gwtlibra@gmail.com",
+          buttonLabel: "Copy Email",
+          value: "gwtlibra@gmail.com",
+        },
+        {
+          type: "link",
+          title: "LinkedIn",
+          text: "Connect professionally",
+          buttonLabel: "View Profile",
+          href: "https://www.linkedin.com/in/gregorius-william-tanuwijaya-310b34324/",
+        },
+        {
+          type: "link",
+          title: "Github",
+          text: "Check out my repositories",
+          buttonLabel: "View Repos",
+          href: "https://github.com/GregoryWTz",
+        },
+        {
+          type: "link",
+          title: "CTFs",
+          text: "View CTF labs & progress",
+          buttonLabel: "View Profile",
+          href: "https://learn.cylabacademy.org/users/VortexWz",
         },
       ],
     },
