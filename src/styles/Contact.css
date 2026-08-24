@@ -39,10 +39,20 @@
 }
 
 .contact__box-title {
-  margin: 0;
-  font-size: 1.5rem;
-  font-weight: 800;
-  color: var(--color-text);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--color-text);
+}
+
+.contact__box-icon {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  color: var(--color-accent);
 }
 
 .contact__box-text {

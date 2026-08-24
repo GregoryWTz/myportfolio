@@ -2,19 +2,19 @@ import { useState } from "react";
 import "../styles/Contact.css";
 import { useLanguage } from "../context/LanguageContext";
 import { useInView } from "../hooks/useInView";
-// import { SiLinkedin, SiGithub } from "react-icons/si";
-// import { MdEmail } from "react-icons/md";
-// import { GiCrossedSwords } from "react-icons/gi";
+import { FaLinkedin, FaGithub, FaLaptopCode } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 
-// const iconMap = {
-//   email: MdEmail,
-//   linkedin: SiLinkedin,
-//   github: SiGithub,
-//   ctf: GiCrossedSwords,
-// };
+const iconMap = {
+  email: MdEmail,
+  linkedin: FaLinkedin,
+  github: FaGithub,
+  ctf: FaLaptopCode,
+};
 
 function ContactCard({ card, copiedLabel }) {
     const [copied, setCopied] = useState(false);
+    const Icon = iconMap[card.icon];
 
     const handleCopy = async () => {
         try {
@@ -28,7 +28,10 @@ function ContactCard({ card, copiedLabel }) {
 
     return (
         <div className="contact__box">
-            <h3 className="contact__box-title">{card.title}</h3>
+            <h3 className="contact__box-title">
+                {Icon && <Icon className="contact__box-icon" aria-hidden="true" />}
+                {card.title}
+            </h3>
             <p className="contact__box-text">{card.text}</p>
 
             {card.type === "email" ? (
