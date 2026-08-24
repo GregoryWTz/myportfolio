@@ -116,6 +116,7 @@ export const translations = {
       cards: [
         {
           type: "email",
+          icon: "email",
           title: "My Email Address",
           text: "gwtlibra@gmail.com",
           buttonLabel: "Copy Email",
@@ -123,6 +124,7 @@ export const translations = {
         },
         {
           type: "link",
+          icon: "linkedin",
           title: "LinkedIn",
           text: "Connect professionally",
           buttonLabel: "View Profile",
@@ -130,6 +132,7 @@ export const translations = {
         },
         {
           type: "link",
+          icon: "github",
           title: "Github",
           text: "Check out my repositories",
           buttonLabel: "View Repos",
@@ -137,12 +140,17 @@ export const translations = {
         },
         {
           type: "link",
+          icon: "ctf",
           title: "CTFs",
           text: "View CTF labs & progress",
           buttonLabel: "View Profile",
           href: "https://learn.cylabacademy.org/users/VortexWz",
         },
       ],
+    },
+    footer: {
+      text: "Built with React, Vite, and a lot of coffee.",
+      credit: "Gregorius William Tanuwijaya, 2026",
     },
   },
 
@@ -260,6 +268,7 @@ export const translations = {
       cards: [
         {
           type: "email",
+          icon: "email",
           title: "Alamat Email Saya",
           text: "gwtlibra@gmail.com",
           buttonLabel: "Salin Email",
@@ -267,6 +276,7 @@ export const translations = {
         },
         {
           type: "link",
+          icon: "linkedin",
           title: "LinkedIn",
           text: "Terhubung secara profesional",
           buttonLabel: "Lihat Profil",
@@ -274,6 +284,7 @@ export const translations = {
         },
         {
           type: "link",
+          icon: "github",
           title: "Github",
           text: "Lihat repositori saya",
           buttonLabel: "Lihat Repositori",
@@ -281,12 +292,17 @@ export const translations = {
         },
         {
           type: "link",
+          icon: "ctf",
           title: "CTFs",
           text: "Lihat lab & progres CTF",
           buttonLabel: "Lihat Profil",
           href: "https://learn.cylabacademy.org/users/VortexWz",
         },
       ],
+    },
+    footer: {
+      text: "Dibuat dengan React, Vite, dan banyak kopi.",
+      credit: "Gregorius William Tanuwijaya, 2026",
     },
   },
 };

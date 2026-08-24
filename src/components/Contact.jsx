@@ -2,6 +2,16 @@ import { useState } from "react";
 import "../styles/Contact.css";
 import { useLanguage } from "../context/LanguageContext";
 import { useInView } from "../hooks/useInView";
+// import { SiLinkedin, SiGithub } from "react-icons/si";
+// import { MdEmail } from "react-icons/md";
+// import { GiCrossedSwords } from "react-icons/gi";
+
+// const iconMap = {
+//   email: MdEmail,
+//   linkedin: SiLinkedin,
+//   github: SiGithub,
+//   ctf: GiCrossedSwords,
+// };
 
 function ContactCard({ card, copiedLabel }) {
     const [copied, setCopied] = useState(false);

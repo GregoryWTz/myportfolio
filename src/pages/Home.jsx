@@ -5,6 +5,7 @@ import Exp from "../components/Exp";
 import Edu from "../components/Edu";
 import Skills from "../components/Skills";
 import Contact from "../components/Contact";
+import Footer from "../components/Footer";
 
 function Home() {
   return (
@@ -16,6 +17,7 @@ function Home() {
       <Edu />
       <Skills />
       <Contact />
+      <Footer />
     </>
   );
 }
