@@ -4,11 +4,11 @@
 export const translations = {
   en: {
     nav: {
-      brand: "GregoryWTz",
+      brand: "<GregoryWTz>",
       links: [
-        { label: "Home", href: "#home" },
-        { label: "About", href: "#about" },
-        { label: "Projects", href: "#projects" },
+        { label: "Home", href: "/", type: "route" },
+        { label: "About", href: "#about", type: "anchor" },
+        { label: "Projects", href: "/projects", type: "route" },
       ],
     },
     hero: {
@@ -156,11 +156,11 @@ export const translations = {
 
   id: {
     nav: {
-      brand: "GregoryWTz",
+      brand: "<GregoryWTz>",
       links: [
-        { label: "Beranda", href: "#home" },
-        { label: "Proyek", href: "#projects" },
-        { label: "Tentang", href: "#about" },
+        { label: "Beranda", href: "#home", type: "route" },
+        { label: "Tentang", href: "#about", type: "anchor" },
+        { label: "Proyek", href: "#projects", type: "route" },
       ],
     },
     hero: {
