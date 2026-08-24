@@ -67,7 +67,7 @@ function Skills() {
         </h2>
 
         {/* Featured marquee row */}
-        <div className="skills__marquee">
+        <div className={`skills__marquee ${titleVisible ? "in-view" : ""}`}>
           <LogoLoop
             logos={skills.featured
               .map((icon) => {
