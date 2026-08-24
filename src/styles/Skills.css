@@ -84,6 +84,11 @@
   color: #fff;
   font-size: 1.1rem;
   font-weight: 600;
+  transition: transform 0.15s ease;
+}
+
+.skills__pill:hover {
+  transform: translateY(-2px);
 }
 
 .skills__pill-icon {

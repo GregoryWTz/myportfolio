@@ -100,9 +100,8 @@ export const translations = {
         },
         {
           name: "Security",
-          note: "Learned through CTF competitions and self-study.",
+          note: "Learned through CTF challenges and self-study.",
           items: [
-            { name: "OWASP Top 10" },
             { name: "Web Exploitation" },
             { name: "Cryptography Basics" },
             { name: "Network Fundamentals" },
@@ -202,7 +201,7 @@ export const translations = {
           ],
         },
         {
-          name: "Languages",
+          name: "Bahasa Pemrograman",
           items: [
             { name: "Python", icon: "python" },
             { name: "Kotlin", icon: "kotlin" },
@@ -210,12 +209,11 @@ export const translations = {
         },
         {
           name: "Security",
-          note: "Learned through CTF competitions and self-study.",
+          note: "Belajar melalui tantangan CTF dan studi mandiri.",
           items: [
-            { name: "OWASP Top 10" },
-            { name: "Web Exploitation" },
-            { name: "Cryptography Basics" },
-            { name: "Network Fundamentals" },
+            { name: "Exploitasi Web" },
+            { name: "Dasar Kriptografi" },
+            { name: "Jaringan Komputer" },
           ],
         },
       ],
