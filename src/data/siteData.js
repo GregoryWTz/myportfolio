@@ -18,7 +18,7 @@ export const translations = {
       description:
         "I'm an IT student based in Indonesia, currently learning how to become a successful person in the IT field. I have a passion for technology, specifically in Cybersecurity.",
       primaryCta: { label: "Get In Touch", href: "#contact" },
-      secondaryCta: { label: "Browse Projects", href: "#projects" },
+      secondaryCta: { label: "Browse Projects", href: "/projects" },
       photo: {
         src: "/images/profile1.png",
         alt: "Portrait of Greg, IT student",
@@ -170,7 +170,7 @@ export const translations = {
       description:
         "Saya seorang mahasiswa IT yang berdomisili di Indonesia, sedang belajar untuk menjadi orang yang sukses di bidang IT. Saya memiliki passion terhadap teknologi, khususnya di bidang Cybersecurity.",
       primaryCta: { label: "Hubungi Saya", href: "#contact" },
-      secondaryCta: { label: "Lihat Proyek", href: "#projects" },
+      secondaryCta: { label: "Lihat Proyek", href: "/projects" },
       photo: {
         src: "/images/profile1.png",
         alt: "Potret Greg, mahasiswa IT",

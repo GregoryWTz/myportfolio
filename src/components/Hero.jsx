@@ -1,4 +1,5 @@
 import { useLanguage } from "../context/LanguageContext";
+import { Link } from "react-router-dom";
 import "../styles/Hero.css";
 
 function Hero() {
@@ -21,12 +22,18 @@ function Hero() {
           <p className="hero__description">{hero.description}</p>
 
           <div className="hero__actions">
-            <a href={hero.primaryCta.href} className="btn btn--primary">
+            <a
+              href={hero.primaryCta.href}
+              className="btn btn--primary"
+            >
               {hero.primaryCta.label}
             </a>
-            <a href={hero.secondaryCta.href} className="btn btn--secondary">
+            <Link
+              to={hero.secondaryCta.href}
+              className="btn btn--secondary"
+            >
               {hero.secondaryCta.label}
-            </a>
+            </Link>
           </div>
         </div>
 
