@@ -6,7 +6,7 @@ import { LanguageProvider } from './context/LanguageContext.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/myportfolio">
       <LanguageProvider>
         <App />
       </LanguageProvider>
