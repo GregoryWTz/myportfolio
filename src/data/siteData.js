@@ -20,7 +20,7 @@ export const translations = {
       primaryCta: { label: "Get In Touch", href: "#contact" },
       secondaryCta: { label: "Browse Projects", href: "/projects" },
       photo: {
-        src: "/images/profile1.png",
+        src: `${import.meta.env.BASE_URL}images/profile1.png`,
         alt: "Portrait of Greg, IT student",
       },
     },
@@ -47,7 +47,7 @@ export const translations = {
       entries: [
         {
           image: {
-            src: "/images/umn.jpg",
+            src: `${import.meta.env.BASE_URL}images/umn.jpg`,
             alt: "Universitas Multimedia Nusantara Logo",
           },
           degree: "Bachelor of Informatics",
@@ -172,7 +172,7 @@ export const translations = {
       primaryCta: { label: "Hubungi Saya", href: "#contact" },
       secondaryCta: { label: "Lihat Proyek", href: "/projects" },
       photo: {
-        src: "/images/profile1.png",
+        src: `${import.meta.env.BASE_URL}images/profile1.png`,
         alt: "Potret Greg, mahasiswa IT",
       },
     },
@@ -199,7 +199,7 @@ export const translations = {
       entries: [
         {
           image: {
-            src: "/images/umn.jpg",
+            src: `${import.meta.env.BASE_URL}images/umn.jpg`, 
             alt: "Universitas Multimedia Nusantara Logo",
           },
           degree: "Sarjana Teknik Informatika",
