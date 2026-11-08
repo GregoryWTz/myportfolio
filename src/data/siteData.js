@@ -34,13 +34,13 @@ export const translations = {
       description:
         "Download my resume to see the full details of my educational background, experience, and skills.",
       buttonLabel: "Download CV",
-      file: "/files/Curriculum Vitae Gregorius William Tanuwijaya_Eng.pdf",
+      file: `${BASE_URL}files/cv.pdf`,
     },
     exp: {
       title: "Experience",
       description: "Download my experience document to see the full details of my work experience, projects, and achievements.",
       buttonLabel: "Download Experience",
-      file: "/files/Gregorius-William-Tanuwijaya-Experience.pdf",
+      file: "/files/cv.pdf",
     },
     edu: {
       title: "Education",
@@ -186,7 +186,7 @@ export const translations = {
       description:
         "Unduh resume saya untuk melihat rincian lengkap mengenai latar belakang pendidikan, pengalaman, dan keahlian.",
       buttonLabel: "Unduh CV",
-      file: "/files/Curriculum Vitae Gregorius William Tanuwijaya_Eng.pdf",
+      file: `${BASE_URL}files/cv.pdf`,
     },
     exp: {
       title: "Pengalaman",
